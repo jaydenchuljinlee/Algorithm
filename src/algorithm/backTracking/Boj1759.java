@@ -50,7 +50,7 @@ public class Boj1759 {
 
 	private static boolean check(char word) {
 	
-		if (word == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u')
+		if (word == 'a' || word == 'e' || word == 'i' || word == 'o' || word == 'u')
 			return true;
 		else
 			return false;
