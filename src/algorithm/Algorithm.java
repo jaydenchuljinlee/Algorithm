@@ -3,16 +3,16 @@ package algorithm;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import algorithm.Dijkstra.Boj1504;
+
 public class Algorithm {
 	public static int[][] map;
 
 	public static void main(String[] args) throws Exception{
 		
-		int bit = (1<<7)-2;
+		Boj1504 boj = new Boj1504();
 		
-		bit>>=1;
-		
-		System.out.println(bit&1);
+		boj.solution();
 	}
 	
 }
