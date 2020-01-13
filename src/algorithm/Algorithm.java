@@ -1,16 +1,15 @@
 package algorithm;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
-import algorithm.Dijkstra.Boj1504;
+import algorithm.DP.Boj11726;
+import algorithm.grid.Boj1120;
+import algorithm.grid.Boj1541;
+import algorithm.grid.Boj1946;
 
 public class Algorithm {
-	public static int[][] map;
 
 	public static void main(String[] args) throws Exception{
 		
-		Boj1504 boj = new Boj1504();
+		Boj1946 boj = new Boj1946();
 		
 		boj.solution();
 	}
