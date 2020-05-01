@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce8072dc-e987-4959-8f5d-eb14bb4f4da2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/programmers/Pro64061.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/programmers/Pro64065.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/Algorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/Algorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/BFS/Boj1260.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/BFS/Boj1260.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/BFS/Boj1697.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/BFS/Boj1697.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/BFS/Boj2178$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/BFS/Boj2178$Dot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/BFS/Boj2178.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/BFS/Boj2178.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/BFS/Boj2667$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/BFS/Boj2667$Dot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/BFS/Boj2667.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/BFS/Boj2667.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DFS/Boj1012.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DFS/Boj1012.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DFS/Boj11403.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DFS/Boj11403.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DFS/Boj1260.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DFS/Boj1260.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DFS/Boj2667.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DFS/Boj2667.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj1003.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj1003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj1010.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj1010.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj10844.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj10844.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj11052.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj11052.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj11053.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj11053.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj1149.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj1149.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj11726.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj11726.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj11727.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj11727.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj1463.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj1463.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj1912.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj1912.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj1932.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj1932.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj2156.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj2156.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj2163.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj2163.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj2193.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj2193.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj2579.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj2579.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj9095.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj9095.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/DP/Boj9461.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/DP/Boj9461.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1238$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1238$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1238.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1238.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1261$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1261$Dot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1261.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1261.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1504$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1504$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1504.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1504.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1753$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1753$Dot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1753.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1753.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1916.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/Dijkstra/Boj1916.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj1248.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj1248.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj1339.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj1339.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj1759.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj1759.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj1799.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj1799.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj1941.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj1941.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj1987.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj1987.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj2023.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj2023.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj2580.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj2580.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj2629.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj2629.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj2661.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj2661.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj3109.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj3109.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj6603.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj6603.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj9663.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/backTracking/Boj9663.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj1065.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj1065.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj14501.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj14501.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj14502$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj14502$Dot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj14502.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj14502.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj14888.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj14888.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj14889.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj14889.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj1966.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/bruteForce/Boj1966.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/grid/Boj10610.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/grid/Boj10610.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/grid/Boj1120.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/grid/Boj1120.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/grid/Boj1541.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/grid/Boj1541.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/grid/Boj1946$Applicant.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/grid/Boj1946$Applicant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/grid/Boj1946.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/grid/Boj1946.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/grid/Boj2875.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/grid/Boj2875.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/simulation/Boj1094.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/simulation/Boj1094.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/simulation/Boj14499$Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/simulation/Boj14499$Dice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/simulation/Boj14499.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/simulation/Boj14499.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/simulation/Boj14503$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/simulation/Boj14503$Dot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/simulation/Boj14503.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/simulation/Boj14503.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/simulation/Boj1966.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/simulation/Boj1966.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/simulation/Boj2455.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/simulation/Boj2455.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/simulation/Boj3190$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/simulation/Boj3190$Dot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/simulation/Boj3190.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/simulation/Boj3190.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/stringAlgorithm/Boj10809.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/stringAlgorithm/Boj10809.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/stringAlgorithm/Boj1157.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/stringAlgorithm/Boj1157.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/stringAlgorithm/Boj1316.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/stringAlgorithm/Boj1316.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/stringAlgorithm/Boj2908.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/stringAlgorithm/Boj2908.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/stringAlgorithm/Boj2941.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/stringAlgorithm/Boj2941.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/stringAlgorithm/Boj5622.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/stringAlgorithm/Boj5622.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/backTracking/Boj1248.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/backTracking/Boj1248.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/Algorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Pro64061.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Pro64065.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro64061.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/Algorithm.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro64065.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="programmers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588323188866" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Algorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.Algorithm" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Algorithm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce8072dc-e987-4959-8f5d-eb14bb4f4da2" name="Default Changelist" comment="" />
+      <created>1588314512195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588314512195</updated>
+      <workItem from="1588314521626" duration="8900000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8900000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Pro64061.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Pro64065.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>algorithm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
