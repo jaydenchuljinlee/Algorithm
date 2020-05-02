@@ -1,6 +1,8 @@
 package algorithm;
 
 import algorithm.programmers.Pro64061;
+import algorithm.programmers.Pro64062;
+import algorithm.programmers.Pro64063;
 import algorithm.programmers.Pro64065;
 
 import java.util.*;
@@ -11,18 +13,13 @@ public class Algorithm {
 
 	public static void main(String[] args) throws Exception {
 
-		Pro64065 programers = new Pro64065();
+        Pro64062 programers = new Pro64062();
 
-		String[] s = {"{{2},{2,1},{2,1,3},{2,1,3,4}}"
-		            ,"{{1,2,3},{2,1},{1,2,4,3},{2}}"
-		            ,"{{20,111},{111}}"
-                    ,"{{123}}"
-                    ,"{{4,2,3},{3},{2,3,4,1},{2,3}}"};
+		int[] stones = {2, 4, 5, 3, 2, 1, 4, 2, 5, 1};
 
-		for (String str : s) {
+		int k = 3;
 
-            System.out.println(programers.solution(str));
-        }
+		System.out.println(programers.solution(stones,k));
 
 
 
