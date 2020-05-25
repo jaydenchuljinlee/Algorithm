@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce8072dc-e987-4959-8f5d-eb14bb4f4da2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42578.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42746.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42629.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42842.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro43165.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/algorithm/Algorithm$Skill.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/algorithm/Algorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/Algorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/programmersLevel2/Pro42746$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/programmersLevel2/Pro42746$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/programmersLevel2/Pro42746.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/programmersLevel2/Pro42746.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithm/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Algorithm.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -21,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="118">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,28 +33,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42746.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42842.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="800">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42883.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro43165.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="425">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42578.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42629.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="500">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
@@ -72,9 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro64065.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro64063.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro64062.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro64064.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro62050.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro12971.java" />
@@ -119,14 +118,17 @@
         <option value="$PROJECT_DIR$/src/algorithm/summercoding/Summer20201.java" />
         <option value="$PROJECT_DIR$/src/algorithm/summercoding/Summer20202.java" />
         <option value="$PROJECT_DIR$/src/algorithm/summercoding/Summer20203.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/Algorithm.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42746.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42578.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/Algorithm.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42842.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro43165.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42629.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -172,7 +174,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590321416789" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590418397971" />
     <property name="last_opened_file_path" value="C:/inteliJ/designPattern" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -229,18 +231,18 @@
       <workItem from="1588832455249" duration="222000" />
       <workItem from="1588997322203" duration="12096000" />
       <workItem from="1589266928402" duration="24592000" />
-      <workItem from="1589617637521" duration="55678000" />
+      <workItem from="1589617637521" duration="58195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124934000" />
+    <option name="totallyTimeSpent" value="127451000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -249,7 +251,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,27 +277,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Pro64063.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="1052" lean-forward="true" selection-start-line="1052" selection-end-line="1052" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Pro64064.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Pro64062.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -603,23 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42746.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -638,6 +602,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42746.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42842.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro43165.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42629.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
