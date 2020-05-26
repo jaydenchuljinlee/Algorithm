@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce8072dc-e987-4959-8f5d-eb14bb4f4da2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42629.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42842.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro43165.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro12905.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro1835.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/algorithm/Algorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/Algorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/algorithm/programmersLevel2/Pro42746$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/programmersLevel2/Pro42746$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/algorithm/programmersLevel2/Pro42746.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/programmersLevel2/Pro42746.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Algorithm.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,11 +45,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42629.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="343">
+              <caret line="65" column="13" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="65" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro12905.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro1835.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -74,8 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro64064.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro62050.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro12971.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro12979.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro12987.java" />
@@ -125,6 +136,8 @@
         <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42842.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro43165.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42629.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro12905.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro1835.java" />
       </list>
     </option>
   </component>
@@ -174,7 +187,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590418397971" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590499902888" />
     <property name="last_opened_file_path" value="C:/inteliJ/designPattern" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -231,12 +244,12 @@
       <workItem from="1588832455249" duration="222000" />
       <workItem from="1588997322203" duration="12096000" />
       <workItem from="1589266928402" duration="24592000" />
-      <workItem from="1589617637521" duration="58195000" />
+      <workItem from="1589617637521" duration="61189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127451000" />
+    <option name="totallyTimeSpent" value="130445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -277,20 +290,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Pro64062.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Pro62050.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="4" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/programmers/Pro12978.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -638,8 +637,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42629.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="343">
+          <caret line="65" column="13" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro12905.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro1835.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
