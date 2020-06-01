@@ -1,46 +1,62 @@
 package algorithm;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Algorithm {
+
+    private static class Jewelry {
+        int weight;
+        int value;
+
+        public Jewelry(int weight, int value) {
+            this.weight = weight;
+            this.value = value;
+        }
+
+    }
 
 	public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        String n = sc.nextLine();
+        int n = sc.nextInt();
+        int k = sc.nextInt();
 
-        if (n.charAt(0) == '0') {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
 
-            System.out.println(0);
-            return;
-        }
+        ArrayList<Jewelry> jewelries = new ArrayList<>();
+        ArrayList<Integer> bagList = new ArrayList<>();
 
-        long[] dp = new long[n.length()+1];
+        for (int i = 0; i < n; i++) jewelries.add(new Jewelry(sc.nextInt(),sc.nextInt()));
+        for (int i = 0; i < k; i++) bagList.add(sc.nextInt());
 
-        dp[0] = 1;
-        dp[1] = 1;
+        Collections.sort(jewelries, new Comparator<Jewelry>() {
+            @Override
+            public int compare(Jewelry o1, Jewelry o2) {
 
-        for (int i = 1,loop = n.length(); i < loop; i++) {
+                if (o1.weight <= o2.weight) return -1;
+                else return 1;
 
-            char pre = n.charAt(i-1);
-            char cur = n.charAt(i);
+            }
+        });
+        Collections.sort(bagList);
 
-            if ('1' <= cur && cur <= '9') {
+        long answer = 0;
+        int idx = 0;
 
-                dp[i+1] += dp[i];
-                dp[i+1] %= 1000000;
+        for (int bag : bagList) {
+
+            while(idx < n) {
+
+                if (bag >= jewelries.get(idx).weight) {
+                    pq.add(-(jewelries.get(idx++).value));
+                }else break;
             }
 
-            if (!(pre == '0' || pre > '2' || (pre == '2' && cur > '6'))) {
-
-                dp[i+1] += dp[i-1];
-                dp[i+1] %= 1000000;
-            }
-
+            if (!pq.isEmpty()) answer += Math.abs(pq.poll());
 
         }
 
-        System.out.println(dp[n.length()]%1000000);
+        System.out.println(answer);
 	}
 }
