@@ -1,4 +1,4 @@
-package algorithm.kakao;
+package algorithm.Dijkstra;
 
 import java.util.*;
 
