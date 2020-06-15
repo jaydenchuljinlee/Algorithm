@@ -1,11 +1,8 @@
-package algorithm;
+package algorithm.grid;
 
-import algorithm.grid.Boj1343;
+import java.util.Scanner;
 
-import java.io.*;
-import java.util.*;
-
-public class Algorithm {
+public class Boj1343 {
 
     public static void solution() {
 
@@ -54,14 +51,9 @@ public class Algorithm {
                 for (int i = 0; i < len; i++) sb.append("B");
             } else {
                 System.out.println(-1);
-                System.exit(0);
+                return;
             }
         }
 
     }
-
-	public static void main(String[] args)throws Exception {
-        solution();
-    }
-
 }
