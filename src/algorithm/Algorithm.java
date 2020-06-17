@@ -7,61 +7,30 @@ import java.util.*;
 
 public class Algorithm {
 
-    public static void solution() {
+    public static int solution(int[] A) {
 
-        Scanner sc = new Scanner(System.in);
+        HashMap<Integer,Integer> map = new HashMap<>();
 
-        String s = sc.nextLine();
+        for (int i = 0; i < A.length; i++) {
 
-        StringBuilder sb = new StringBuilder("");
-
-        while(s.indexOf(".") != -1) {
-
-            int len = s.substring(0,s.indexOf(".")).length();
-
-            s = s.substring(len+1);
-
-            findStr(s,sb,len);
-
-            sb.append(".");
+            map.put(A[i],map.getOrDefault(A[i],0)+1);
         }
 
-        if (s.length() != 0) {
+        for (int key : map.keySet()) {
 
-            int len = s.length();
-
-            findStr(s,sb,len);
+            if (map.get(key)%2 != 0) return key;
         }
 
-        System.out.println(sb.toString());
+        return -1;
     }
 
-    private static void findStr(String s,StringBuilder sb, int len) {
 
-        if (len != 0) {
-
-            if (len%4 == 0) {
-
-                for (int i = 0; i < len; i++) sb.append("A");
-            } else if (len%2 == 0) {
-
-                int rem = len-2;
-
-                len%=4;
-
-                for (int i = 0; i < rem; i++) sb.append("A");
-
-                for (int i = 0; i < len; i++) sb.append("B");
-            } else {
-                System.out.println(-1);
-                System.exit(0);
-            }
-        }
-
-    }
 
 	public static void main(String[] args)throws Exception {
-        solution();
+
+        int k = solution(new int[]{9,3,9,3,9,7,9});
+
+        System.out.println(k);
     }
 
 }
