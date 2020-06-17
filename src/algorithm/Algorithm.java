@@ -9,26 +9,33 @@ public class Algorithm {
 
     public static int solution(int[] A) {
 
-        HashMap<Integer,Integer> map = new HashMap<>();
+        int sum  = 0;
+        int diff = 0;
 
-        for (int i = 0; i < A.length; i++) {
+        for (int i = 0; i < A.length; i++) sum += A[i];
 
-            map.put(A[i],map.getOrDefault(A[i],0)+1);
+        int min = Integer.MAX_VALUE;
+
+        int trans = 0;
+
+        for (int i = 0; i < A.length-1; i++) {
+
+            trans += A[i];
+            sum -= A[i];
+
+            diff = Math.abs(trans - sum);
+
+            min = Math.min(min,diff);
         }
 
-        for (int key : map.keySet()) {
-
-            if (map.get(key)%2 != 0) return key;
-        }
-
-        return -1;
+        return min;
     }
 
 
 
 	public static void main(String[] args)throws Exception {
 
-        int k = solution(new int[]{9,3,9,3,9,7,9});
+        int k = solution(new int[] {3,1,2,4,3});
 
         System.out.println(k);
     }
