@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce8072dc-e987-4959-8f5d-eb14bb4f4da2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/codility/level3/FrogJmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/codility/level3/PermMissingElem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/codility/level3/TapeEquilibrium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/codility/level4/FrogRiverOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/codility/level4/MaxCounters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/codility/level4/MissingInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/codility/level4/PermCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/algorithm/Algorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/Algorithm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithm/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Algorithm.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithm/Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="316">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,46 +31,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level3/TapeEquilibrium.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level4/PermCheck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level4/MissingInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level4/MaxCounters.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level3/PermMissingElem.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level4/FrogRiverOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level3/FrogJmp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level1/BinaryGap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level2/CycleRotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="25">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -90,9 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithm/programmers/Pro42894.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/kakao/Pro60057.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/kakao/Pro60058.java" />
         <option value="$PROJECT_DIR$/src/algorithm/kakao/Pro60059.java" />
         <option value="$PROJECT_DIR$/src/algorithm/kakao/Pro60060.java" />
         <option value="$PROJECT_DIR$/src/algorithm/kakao/Pro60061.java" />
@@ -140,6 +128,9 @@
         <option value="$PROJECT_DIR$/src/algorithm/codility/level2/CycleRotation.java" />
         <option value="$PROJECT_DIR$/src/algorithm/codility/level3/FrogJmp.java" />
         <option value="$PROJECT_DIR$/src/algorithm/codility/level3/PermMissingElem.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/codility/level4/FrogRiverOne.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/codility/level4/MaxCounters.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/codility/level4/MissingInteger.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Algorithm.java" />
       </list>
     </option>
@@ -185,7 +176,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="codility" type="462c0819:PsiDirectoryNode" />
-              <item name="level3" type="462c0819:PsiDirectoryNode" />
+              <item name="level4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +189,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592400677708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592476600985" />
     <property name="last_opened_file_path" value="C:/inteliJ/slackDemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -256,12 +247,12 @@
       <workItem from="1588997322203" duration="12096000" />
       <workItem from="1589266928402" duration="24592000" />
       <workItem from="1589617637521" duration="118091000" />
-      <workItem from="1592140335319" duration="15525000" />
+      <workItem from="1592140335319" duration="19814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202872000" />
+    <option name="totallyTimeSpent" value="207161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -302,34 +293,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro12899.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="26" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42584.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="28" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42583.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro1829.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="26" column="36" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42860.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -661,10 +624,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level4/MaxCounters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level4/FrogRiverOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level4/MissingInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level4/PermCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="316">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
