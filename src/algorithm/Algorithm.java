@@ -8,14 +8,26 @@ import java.util.*;
 public class Algorithm {
 
     public static int solution(int[] A) {
-        
+
+        int sum = 0;
+        int result = 0;
+
+        for (int i = 0; i < A.length; i++) {
+
+            if (A[i] == 0) sum++;
+            else result += sum;
+        }
+
+        if (result > 1000000000 || result < 0) return -1;
+
+        return result;
     }
 
 
 
 	public static void main(String[] args)throws Exception {
 
-        solution("CAGCCTA",new int[] {2,5,0}, new int[] {0,1,2});
+        solution(new int[] {4,2,2,5,1,5,8});
 
 
     }
