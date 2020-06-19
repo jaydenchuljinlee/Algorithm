@@ -8,19 +8,16 @@ import java.util.*;
 public class Algorithm {
 
     public static int solution(int[] A) {
-
-
-
-        return 1;
+        
     }
 
 
 
 	public static void main(String[] args)throws Exception {
 
-        int k = solution(new int[] {1,1,2});
+        solution("CAGCCTA",new int[] {2,5,0}, new int[] {0,1,2});
 
-        System.out.println(k);
+
     }
 
 }
