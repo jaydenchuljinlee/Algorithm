@@ -9,25 +9,18 @@ public class Algorithm {
 
     public static int solution(int[] A) {
 
-        int sum = 0;
-        int result = 0;
+        HashSet<Integer> set = new HashSet<>();
 
-        for (int i = 0; i < A.length; i++) {
+        for (int a : A) set.add(a);
 
-            if (A[i] == 0) sum++;
-            else result += sum;
-        }
-
-        if (result > 1000000000 || result < 0) return -1;
-
-        return result;
+        return set.size();
     }
 
 
 
 	public static void main(String[] args)throws Exception {
 
-        solution(new int[] {4,2,2,5,1,5,8});
+
 
 
     }
