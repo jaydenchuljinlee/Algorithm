@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce8072dc-e987-4959-8f5d-eb14bb4f4da2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/codility/level6/MaxProductOfThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/codility/level6/NumberOfDiscIntersections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/codility/level6/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithm/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Algorithm.java" afterDir="false" />
     </list>
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithm/Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="37" column="28" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="37" selection-end-column="28" />
+            <state relative-caret-position="450">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,10 +28,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level6/Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level6/NumberOfDiscIntersections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            <state relative-caret-position="322">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -70,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42860.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42839.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42883.java" />
         <option value="$PROJECT_DIR$/src/algorithm/summercoding/Summer20201.java" />
@@ -120,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/algorithm/codility/level5/PassingCars.java" />
         <option value="$PROJECT_DIR$/src/algorithm/codility/level6/Distinct.java" />
         <option value="$PROJECT_DIR$/src/algorithm/codility/level6/MaxProductOfThree.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/codility/level6/NumberOfDiscIntersections.java" />
         <option value="$PROJECT_DIR$/src/algorithm/Algorithm.java" />
       </list>
     </option>
@@ -178,7 +186,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592923197697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592985564576" />
     <property name="last_opened_file_path" value="C:/inteliJ/redis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -240,12 +248,12 @@
       <workItem from="1592649879963" duration="703000" />
       <workItem from="1592745635617" duration="589000" />
       <workItem from="1592828358449" duration="1409000" />
-      <workItem from="1592918820697" duration="1774000" />
+      <workItem from="1592918820697" duration="2578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218228000" />
+    <option name="totallyTimeSpent" value="219032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -286,13 +294,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42578.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42746.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -646,15 +647,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level6/NumberOfDiscIntersections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        <state relative-caret-position="322">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/codility/level6/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="37" column="28" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="37" selection-end-column="28" />
+        <state relative-caret-position="450">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
