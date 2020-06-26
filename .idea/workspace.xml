@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce8072dc-e987-4959-8f5d-eb14bb4f4da2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/grid/Boj2212.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/grid/Boj2816.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/grid/Boj2873.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithm/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/codility/level6/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/codility/level6/Triangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,20 +15,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithm/Algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="416">
+              <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/grid/Boj2873.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/grid/Boj2816.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="691">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -62,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithm/summercoding/Summer20202.java" />
         <option value="$PROJECT_DIR$/src/algorithm/summercoding/Summer20203.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42746.java" />
         <option value="$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro.java" />
@@ -111,8 +117,9 @@
         <option value="$PROJECT_DIR$/src/algorithm/codility/level6/NumberOfDiscIntersections.java" />
         <option value="$PROJECT_DIR$/src/algorithm/codility/level6/Triangle.java" />
         <option value="$PROJECT_DIR$/src/algorithm/grid/Boj2212.java" />
-        <option value="$PROJECT_DIR$/src/algorithm/Algorithm.java" />
         <option value="$PROJECT_DIR$/src/algorithm/grid/Boj2816.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/grid/Boj2873.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/Algorithm.java" />
       </list>
     </option>
   </component>
@@ -162,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593092651565" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593177712403" />
     <property name="last_opened_file_path" value="C:/inteliJ/redis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -224,12 +231,12 @@
       <workItem from="1592649879963" duration="703000" />
       <workItem from="1592745635617" duration="589000" />
       <workItem from="1592828358449" duration="1409000" />
-      <workItem from="1592918820697" duration="7292000" />
+      <workItem from="1592918820697" duration="10283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223746000" />
+    <option name="totallyTimeSpent" value="226737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -270,13 +277,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro12905.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/programmersLevel2/Pro42629.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -631,17 +631,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/Algorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/grid/Boj2816.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="691">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/grid/Boj2816.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/grid/Boj2873.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithm/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
         </state>
       </provider>
     </entry>
