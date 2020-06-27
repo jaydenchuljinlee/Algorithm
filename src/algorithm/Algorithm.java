@@ -4,168 +4,103 @@ import java.util.*;
 
 public class Algorithm {
 
-    public static void append(StringBuilder s,char c, int cnt) {
+    private static int[] dx = {-1,0,1,-1,1,-1,0,1};
+    private static int[] dy = {-1,-1,-1,0,0,1,1,1};
 
-        for (int i = 0; i < cnt; i++) s.append(c);
+    private static class Dot {
+        int x;
+        int y;
+
+        public Dot(int x, int y) {
+            this.x = x;
+            this.y = y;
+
+        }
     }
 
-    public static void solution() {
+    public static String[] solution(String[] board, int y, int x) {
 
-        Scanner sc = new Scanner(System.in);
+        int yLen = board.length;
+        int xLen = board[0].length();
 
-        int n = sc.nextInt();
-        int m = sc.nextInt();
+        char[][] Board = new char[xLen][yLen];
+        boolean[][] actived = new boolean[xLen][yLen];
 
-        int[][] a = new int[n][m];
+        for (int i = 0; i < yLen; i++) {
 
-        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < xLen; j++) {
 
-            for (int j = 0; j < m; j++) {
-
-                a[i][j] = sc.nextInt();
+                Board[j][i] = board[i].charAt(j);
             }
         }
 
-        StringBuilder sb = new StringBuilder("");
+        Queue<Dot> q = new LinkedList<>();
 
-        if (n%2 == 1) {
+        ((LinkedList<Dot>) q).add(new Dot(x,y));
 
-            for (int i = 0; i < n; i++) {
+        while (!q.isEmpty()) {
 
-                if (i%2 == 0) {
+            Dot d = q.poll();
 
-                    append(sb,'R',m-1);
+            int mcnt = 0;
 
-                    if (i != n-1) {
+            Queue<Dot> sub = new LinkedList<>();
 
-                        append(sb,'D',1);
-                    }
-                } else {
+            for (int i = 0; i < 8; i++) {
 
-                    append(sb,'L',m-1);
-                    append(sb,'D',1);
+                int nx = d.x + dx[i];
+                int ny = d.y + dy[i];
+
+                if (nx < 0 || ny < 0 || nx >= xLen || ny >= yLen) continue;
+
+                if (Board[nx][ny] != 'E') {
+
+                    if (Board[nx][ny] == 'M') mcnt++;
+
+                    actived[d.x][d.y] = true;
+                    Board[d.x][d.y] = 'B';
+                    continue;
                 }
+
+                ((LinkedList<Dot>) sub).add(new Dot(nx,ny));
             }
 
-        } else if (m%2 == 1) {
+            if (mcnt > 0) Board[d.x][d.y] = (char)(mcnt + '0');
+            else {
 
-            for (int i = 0; i < m; i++) {
-
-                if (i%2 == 0) {
-
-                    append(sb,'D',n-1);
-
-                    if (i != m-1) {
-
-                        append(sb,'R',1);
-                    }
-                } else {
-
-                    append(sb,'U',n-1);
-                    append(sb,'R',1);
-                }
+                while (!sub.isEmpty()) ((LinkedList<Dot>) q).add(sub.poll());
             }
-
-        } else {
-
-            int x,y;
-
-            x = 0;
-            y = 1;
-
-            for (int i = 0; i < n; i++) {
-
-                for (int j = 0; j < m; j++) {
-
-                    if ((i+j)%2 == 1) {
-
-                        if (a[x][y] > a[i][j]) {
-
-                            x = i;
-                            y = j;
-                        }
-                    }
-                }
-            }
-
-            int x1 = 0;
-            int y1 = 0;
-            int x2 = n-1;
-            int y2 = m-1;
-
-            StringBuilder s2 = new StringBuilder("");
-
-            while (x2-x1 > 1) {
-
-                if (x1/2 < x/2) {
-
-                    append(sb,'R',m-1);
-                    append(sb,'D',1);
-                    append(sb,'L',m-1);
-                    append(sb,'D',1);
-
-                    x1+=2;
-                }
-
-                if (x/2 < x2/2) {
-
-                    append(s2,'R',m-1);
-                    append(s2,'D',1);
-                    append(s2,'L',m-1);
-                    append(s2,'D',1);
-
-                    x2-=2;
-                }
-
-            }
-
-            while (y2-y1 > 1) {
-
-                if (y1/2 < y/2) {
-
-                    append(sb,'D',1);
-                    append(sb,'R',1);
-                    append(sb,'U',1);
-                    append(sb,'R',1);
-
-                    y1+=2;
-                }
-
-                if (y/2 < y2/2) {
-
-                    append(s2,'D',1);
-                    append(s2,'R',1);
-                    append(s2,'U',1);
-                    append(s2,'R',1);
-
-                    y2-=2;
-                }
-            }
-
-            if (y1 == y) {
-
-                append(sb,'R',1);
-                append(sb,'D',1);
-            } else {
-
-                append(sb,'D',1);
-                append(sb,'R',1);
-            }
-
-            s2.reverse();
-            sb.append(s2);
 
         }
 
-        System.out.println(sb);
+        String[] answer = new String[yLen];
+
+        Arrays.fill(answer,"");
+
+        for (int i = 0; i < yLen; i++) {
+
+            for (int j = 0; j < xLen; j++) {
+
+                if (!actived[j][i]) answer[i] += 'E';
+                else answer[i] += Board[j][i];
+            }
+
+            System.out.println(answer[i]);
+        }
+
+        return answer;
     }
 
 
+    public static void main(String[] args)throws Exception {
 
-	public static void main(String[] args)throws Exception {
+        String[] board = new String[] {"EEEEE","EEMEE","EEEEE","EEEEE"};
 
-        solution();
 
+
+        solution(board,2,0);
+
+        //System.out.println(solution(25));
 
     }
 
